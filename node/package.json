@@ -1,0 +1,20 @@
+{
+  "name": "predict-random",
+  "version": "1.0.0",
+  "description": "Predicts the next value of `Math.random()` in Node v4 or Node v5 given two previous values.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "cuid": "1.3.8"
+  },
+  "scripts": {
+    "test": "babel-node --presets es2015 test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fta2012/ReplicatedRandom/node"
+  },
+  "author": "Franklin <fta2012@gmail.com> (http://franklinta.com)",
+  "license": "MIT"
+}

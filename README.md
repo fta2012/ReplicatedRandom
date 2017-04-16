@@ -1,3 +1,9 @@
+# Node (MWC1616)
+
+See README in node folder
+
+# Java (LCG)
+
 Given a double generated from `nextDouble` of a `java.util.Random`, recreate a `Random` with the same state. This `ReplicatedRandom` can then be used to predict the future values of the original `Random`.
 
 Example:
